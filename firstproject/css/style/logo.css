@@ -1,0 +1,52 @@
+.logobar{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 25px;
+  }
+  .navigation{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .logo{
+    cursor: pointer;
+    color: #ffff;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .logo::after{
+    content: "IT";
+    color: rgba(236, 121, 121, 1);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    
+  }
+  .linknav {
+    cursor:pointer;
+    margin-right: 3rem;
+    text-transform: capitalize;
+    transition: 0.2s;
+      }
+  .navigation a{
+    color: white;
+    border: 3px solid transparent;
+    border-bottom: 3px;
+    border-left: 3px;
+    padding-top: 2px;
+    padding-right: 2px;
+  }
+  .navigation:first-child{
+   margin-left: 3rem;
+  }
+  .linknav a:hover {
+    border: 3px solid #EC7979;
+    border-bottom: 3px;
+    border-left: 3px;
+  }
+  

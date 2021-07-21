@@ -1,13 +1,16 @@
+@import url("./style/logo.css");
+@import url("./style/firstscreen.css");
+@import url("./style/social.css");
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
-  
   }
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  
 }
 .firstsection{
     background-color: white;
@@ -140,117 +143,8 @@ html {
   font-size: 14px;
   width: 100%;
 }
-.logobar{
-  background-color: rgba(0, 0, 0, 1);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 25px 25px;
-}
-.navigation{
-  display:flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.logo{
-  cursor: pointer;
-  color: #ffffff;
-  margin-right: auto;
-  text-transform: uppercase;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 30px;
-}
-.logo::after{
-  content: "IT";
-  color: rgba(236, 121, 121, 1);
-  
-}
-.linknav{
-  cursor:pointer;
-  margin-right: 3rem;
-  text-transform: capitalize;
-  color: #ffffff;
-  transition: 0.2s;
-}
-.navigation:first-child{
- margin-left: 3rem;
-}
-.linknav:hover{
-  border: 3px solid #EC7979;
-  border-bottom: 3px;
-  border-left: 3px;
-}
-.mask{
-  display: flex;
-  background-image: url(../images/bg/background-mask.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 6.25rem 0px;
-  position:relative;
-  z-index: -1;
-      
-}
-.mask::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
-/* .maskcontainer{ */
- 
 
-.logotitle{
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 3.75rem;
-  margin-bottom: 2rem;
-    
-}
-.logotitle::after{
-  content: "it";
-  color: #EC7979;
-  text-transform: uppercase;
-}
-.masktitle{
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  max-width: 544px;
-  
-}
-.masktitle::after{
-  content: " ";
-  display: block;
-  max-width: 64px;
-  border-top: 1px solid #FFFFFF;
-  margin-bottom: 39px;
-  margin-top: 32px;
-}
-.masktitledescr{
-  color: #fff;
-  max-width: 282px;
-  margin-bottom: 38px;
-  font-size: 16px;
-}
 
-.maskbuton{
-  color: #fff;
-  font-size: 15px;
-  border: 1px solid #FFFFFF;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  text-align: center;
-  display: block;
-  width: 135px;
-  text-transform: capitalize;
-  cursor: pointer;
-}
 
 
 

@@ -1,0 +1,166 @@
+.mask{
+    display: flex;
+    background-image: url("/images/bg/background-mask.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 6.25rem 1rem;
+    position:relative;
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+        
+  }
+  .mask::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  
+   
+  
+  .logotitle{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.75rem;
+    margin-bottom: 2rem;
+    text-align: left;
+      
+  }
+  .logotitle::after{
+    content: "it";
+    color: #EC7979;
+    text-transform: uppercase;
+  }
+  .masktitle{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    max-width: 544px;
+    text-align: left;
+    
+  }
+  .masktitle::after{
+    content: " ";
+    display: block;
+    max-width: 64px;
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 39px;
+    margin-top: 32px;
+  }
+  .masktitledescr{
+    color: #fff;
+    max-width: 282px;
+    margin-bottom: 38px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .maskbuton{
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: center;
+    display: block;
+    width: 135px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+
+.name{
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #BDBDBD;
+  text-align: left;
+  text-transform: capitalize;
+}
+.nameform{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 1.1875rem;
+}
+.mail{
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #BDBDBD;
+  text-align: left;
+  text-transform: capitalize;
+}
+.emailform{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 1.1875rem;
+}
+.security{
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #BDBDBD;
+  text-align: left;
+  text-transform: capitalize;
+}
+.passwordform{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 3.1rem;
+  
+}
+.formtitle{
+  font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+    margin-bottom: 2.75rem;
+    text-transform: capitalize;
+}
+.formmask{
+    max-width: 23.125rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    padding-left: 3.6875rem;
+    padding-right: 3.6875rem;
+    
+}
+
+.btnform{
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  width: 100%;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 53px;
+    text-align: center;
+    background: #EC7979;
+    border: 0;
+    transition: 0.2s;
+    text-transform: capitalize;
+    padding-right: 0px;
+    padding-right: 0px;
+}
+.btnform:hover {
+  background-color:black;
+}
