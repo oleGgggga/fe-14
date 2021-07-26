@@ -1,9 +1,11 @@
 .logobar{
     background-color: rgba(0, 0, 0, 1);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 25px 25px;
+    /* max-width: 1170px; */
+    
   }
   .navigation{
     display:flex;

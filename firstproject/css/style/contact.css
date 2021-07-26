@@ -1,0 +1,106 @@
+.contact{
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.contacttitle {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacttitle::after {
+    content: " ";
+    display: block;
+    margin: auto;
+    width: 64px;
+    border-top: 1px solid #E72424;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    text-align: center;
+    
+}
+
+.contactdescription {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #86878B;
+    margin-bottom: 57px;
+    text-align: center;
+
+}
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.3rem;
+    
+}
+.contactforminfo{
+    width: 30rem;
+    margin-left: 6rem;
+}
+.contactname {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: left;
+}
+
+.contactnameform {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 32px;
+  
+}
+
+.contactmessage {
+    width: 30rem;
+}
+
+.contact-messagelabel {
+    display: block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.contacttextarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 216px;
+}
+
+.contactbtn {
+    display: block;
+    margin: auto;
+    width: 166px;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 53px;
+    text-align: center;
+    background: #EC7979;
+    border: 0;
+    transition: 0.2s;
+    text-transform: capitalize;
+    padding-right: 0px;
+    padding-right: 0px;
+    margin: auto;
+  
+}

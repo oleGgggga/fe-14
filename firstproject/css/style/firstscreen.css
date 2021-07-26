@@ -14,6 +14,9 @@
     text-align: center;
         
   }
+  .maskcontainer{
+    margin-right: 15px;
+  }
   .mask::after {
     content: '';
     width: 100%;
@@ -32,7 +35,7 @@
     text-transform: uppercase;
     font-size: 3.75rem;
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
       
   }
   .logotitle::after{
@@ -46,15 +49,16 @@
     font-size: 2.25rem;
     max-width: 544px;
     text-align: left;
+    margin-bottom: 30px;
     
   }
   .masktitle::after{
     content: " ";
     display: block;
     max-width: 64px;
-    border-top: 1px solid #FFFFFF;
-    margin-bottom: 39px;
-    margin-top: 32px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 60px;
+    margin-top: 40px;
   }
   .masktitledescr{
     color: #fff;

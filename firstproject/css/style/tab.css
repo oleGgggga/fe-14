@@ -1,0 +1,92 @@
+.tab{
+    padding-top: 6.3rem;
+    padding-left: 6.9rem;
+    padding-right: 6.9rem;
+    max-width: 1170px;
+}
+.tabcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.tablist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.tabbutton{
+    width: 7rem;
+    height: 6.5rem;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    background-color: #333333;
+    border-radius: 4px;
+    transition: 0.5s;
+    /* margin-bottom: 15px; */
+}
+.tabbutton:hover{
+    background-color: #EC7979;
+}
+.tabtext{
+    margin-right: 15px;
+    max-width: 572px;
+}
+.tabright{
+    margin-right: 15px;
+    max-width: 320px;
+}
+.tabheader{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 58px;
+}
+.tabdscr{
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+    text-align: left;
+}
+.tabdscrbot{
+    /* margin-bottom: 20px; */
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+    text-align: left;
+    margin-bottom: 5rem;
+
+}
+.tabdownload{
+    background: #EC7979;
+    font-family: "Open Sans";
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;    
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    width: 135px;
+    border:#FFFFFF;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.tabdownload:hover{
+    background: black;
+}
+

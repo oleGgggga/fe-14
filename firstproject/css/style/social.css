@@ -3,17 +3,20 @@
     padding-bottom: 17px;
     background: #F8EFEF;
     z-index: 0;
+    /* max-width: 1170px; */
 }
 .socialcontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
         
 
 }
 .sociallist{
     width: 43rem;
     text-align: left;
+    padding-right: 10px;
     
 }
 .socialul {
@@ -22,10 +25,14 @@
     flex-wrap: wrap;
     align-items: center;
     font-size: 2.625rem;
-    color: #86878B;
+    /* color: #86878B; */
+    z-index: 0;
     
 }
-.socialcontainer{
+.socialul:first-child{
+    margin-left: 10px;
+}
+.socialtext{
     padding-left: 6.5rem;
     text-align: left;
 }
@@ -42,7 +49,7 @@
     max-width: 365px;
     font-size: 14px;
     font-weight: 400;
-    color: #86878B;
+    /* color: #86878B; */
 }
 
 .social-row {
@@ -50,12 +57,14 @@
     justify-content: space-between;
 }
 
-.socialli:hover {
+.social-a:hover {
     /* z-index: 1; */
     color: #EC7979;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
-i {
-    transition: 0.2s;
+.social-a {
+    transition: 0.5s;
+    color: #86878B;
+    
 }

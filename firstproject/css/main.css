@@ -1,6 +1,12 @@
 @import url("./style/logo.css");
 @import url("./style/firstscreen.css");
 @import url("./style/social.css");
+@import url("./style/tab.css");
+@import url("./style/coments.css");
+@import url(./style/axure.css);
+@import url(./style/contact.css);
+@import url(./style/footer.css);
+@import url(./style/media.css);
 *{
   margin: 0;
   padding: 0;
@@ -14,7 +20,8 @@ html {
 }
 .firstsection{
     background-color: white;
-    padding: 100px 0;
+    padding: 100px 15px;
+    /* max-width: 1170px; */
     }
 .container{
   padding: 0 15px;
@@ -71,8 +78,8 @@ html {
   margin-bottom: 20px;
 }
 .itemscontainer{
-  margin-left: 40px;
-  margin-right: 40px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
   display: flex;
   flex-wrap: wrap;
   text-align: center;
